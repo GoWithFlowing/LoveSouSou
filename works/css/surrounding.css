@@ -1,0 +1,16 @@
+@charset "utf-8";
+footer div:nth-child(1){
+	background: #015fd0;
+}
+.goback{
+	position: absolute;left: 0;top:0;font-size: 40px;font-family: "微软雅黑";
+	background: url(../img/go-back.png) center no-repeat;width: 107px; height: 88px;
+}
+.right{
+	font-size: 24px;
+	color: #fff;
+	position: absolute;
+	right: 14px;
+	top: 30px;
+}
+.right img,.sud_name{float: left;margin-right: 10px;}

@@ -1,0 +1,42 @@
+@charset "utf-8";
+body{background: #f8f8f8;}
+header{width: 100%; height: 90px;background: #006ef3;color: #f9f9f9;font-size: 30px;
+font-family: "微软雅黑"; position: relative;}
+.goback{
+	position: absolute;left: 30px;top: 20px;font-size: 40px;font-family: "微软雅黑";
+}
+.list li{
+	height: 88px;
+	line-height: 88px;
+	background: #FFFFFF;
+	font-size: 26px;
+	color: #373737;
+	border: 1px solid #d7d7d7;
+	padding: 0 30px 0 26px;
+	
+}
+.list img{
+	margin-top: 30px;
+}
+.list input{
+	border: none;
+	outline: none;
+	padding-left: 30px;
+	font-size: 20px;
+}
+.submit{
+	margin: 142px 92px;
+	height: 64px;
+	width: 448px;
+	background: #0074ff;
+	color: #f8f8f8;
+	border: none;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	font-size: 32px;
+}
+.list span{
+	width: 114px;
+	display: inline-block;
+}

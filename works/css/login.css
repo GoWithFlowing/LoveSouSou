@@ -1,0 +1,77 @@
+@charset "utf-8";
+body{background: #f8f8f8;}
+
+header a{
+	text-decoration: none;
+	color: #f9f9f9;
+	font-size: 30px;
+}
+.goback{
+	position: absolute;left: 0;top:0;font-size: 40px;font-family: "微软雅黑";
+	background: url(../img/go-back.png) center no-repeat;width: 107px; height: 88px;
+}
+.username,.psd{width: 560px; height: 76px;-webkit-border-radius: 6px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+border: 1px solid #4a9afd;
+background: url(../img/username.jpg)no-repeat #fdfbfc;
+background-position: 12px 20px;
+padding-left: 60px;
+margin-top: 36px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+font-size: 30px;
+outline: none;
+}
+.psd{
+background: url(../img/psd.jpg)no-repeat #fdfbfc;
+background-position: 12px 20px;
+}
+.log{
+	position: relative;
+	text-align: center;
+	margin-top: 110px;
+}
+.login{
+	width: 448px;
+	height: 66px;
+	background: #006ef3;
+	font-size: 32px;
+	color: #faf8f9;
+	margin-top: 108px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: none;
+}
+.glyphicon{
+	position: absolute;
+	font-size: 24px;
+}
+.glyphicon-remove-circle{
+	right: 70px;
+	top: 64px;
+}
+.glyphicon-eye-open,.glyphicon-eye-close{
+	right: 70px;
+	top: 174px;
+}
+.des{
+	font-size: 26px;
+	color: #9b9b9b;
+	margin-top: 20px;
+	float: right;
+	margin-right: 86px;
+}
+.ask{
+	text-align: center;
+	clear: both;
+	font-size: 26px;
+	color: #9b9b9b;
+	margin-top: 126px;
+}
+.ask a{
+	text-decoration: none;
+	color: #5ca6fd;
+}

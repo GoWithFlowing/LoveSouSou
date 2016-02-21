@@ -1,0 +1,21 @@
+@charset "utf-8";
+body,ul,li,ol,p,h1,h2,h3,h4,h5,h6,img,br,hr,table,tr,td,dl,dt,dd,form,blockquote,div,input,a{margin:0; padding: 0;}
+body{font: normal 12px "微软雅黑",arial; color: #222;}
+.clear{clear: both; font-size: 0; height: 0; line-height: 0; overflow: hidden;}/*清除浮动*/
+.hide{overflow: hidden;}
+ul,li{list-style: none;}
+img{border: none; display: block;}
+a{text-decoration: none; color: #222222;}
+input,button,select,textarea{outline: none;}
+textarea{resize: none;}
+.a_clear{text-decoration: none;}/*去掉A标签的默认样式*/
+.l_float{float: left;}/*左浮动*/
+.r_float{float: right;}/*右浮动*/
+.d_none{display: none;}/*隐藏*/
+/*title*/
+h1{font-size:48px}
+h2{font-size:36px}
+h3{font-size:18px}
+h4{font-size:14px}
+h5{font-size:12px}
+h6{font-size:9px}
